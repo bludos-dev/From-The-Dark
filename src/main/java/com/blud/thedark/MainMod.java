@@ -45,9 +45,7 @@ public class MainMod {
     private void commonSetup(final FMLCommonSetupEvent event) {
         LOGGER.info("HELLO FROM COMMON SETUP");
 
-        if (Config.logDirtBlock)
-            LOGGER.info("DIRT BLOCK LOGGING ENABLED");
-
+        
         LOGGER.info(Config.magicNumberIntroduction + Config.magicNumber);
     }
 
